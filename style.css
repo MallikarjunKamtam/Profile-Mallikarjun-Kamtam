@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Quintessential&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap");
+
+* {
+  background-color: #c5d7bd;
+  color: rgb(21, 2, 58);
+  text-align: center;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.dp {
+  width: 300px;
+  height: 300px;
+  background-color: #dbf6e9;
+  border-radius: 33%;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro h1 {
+  font-family: "Quintessential", cursive;
+  font-size: 4rem;
+  margin-left: 100px;
+}
+
+footer {
+  display: inline-block;
+  width: 70%;
+  padding: 0% 2%;
+  margin-left: 350px;
+}
+
+.reach {
+  margin: 4%;
+  width: 50px;
+  height: auto;
+}
+
+.reach:hover {
+  transform: rotate(-10deg);
+}
+.reach-icons {
+  padding: 0% 7%;
+}
+
+.tap {
+  border: 1px solid rgb(21, 2, 58);
+  border-radius: 60px;
+  padding: 4%;
+  display: inline-block;
+  margin-left: 350px;
+  line-height: 0;
+}
+.tap:hover {
+  background-color: #dbf6e9;
+}
+
+.about-me {
+  padding-top: 3%;
+}
+.about-me h1 {
+  font-size: 3rem;
+}
+
+.works {
+  padding: 1% 3%;
+}
+
+.works img {
+  width: 300px;
+  height: 200px;
+  border-radius: 70px;
+  border: 10px solid #c5d7bd;
+  outline: black 2px solid;
+}
+
+.mywork {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.my-work-hr {
+  width: 90%;
+  height: 1px;
+  color: black;
+  background-color: black;
+}
+
+.hobbies {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  background-color: #557c55;
+}
+
+.iam {
+  height: 150px;
+  width: 10px;
+  background-color: black;
+}
+
+.hob {
+  height: 200px;
+  width: auto;
+  background-color: #557c55;
+}
+
+.hobbies-container {
+  padding: 3%;
+
+  border-radius: 10%;
+  background-color: #557c55;
+}
+
+.love {
+  padding: 0 6%;
+  background-color: #557c55;
+}
+
+input:focus {
+  width: 80%;
+}
+input {
+  width: 40%;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 20px;
+  background-image: url("searchicon.png");
+  background-position: 10px 10px;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+  margin: 1%;
+}
+
+.submit {
+  background-color: #c5d7bd;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 2%;
+  font-size: 1.6rem;
+}
+
+.submit:hover {
+  background-color: #a6cf98;
+}
+
+.form-container {
+  display: flexbox;
+}
+
+.form,
+.form-container {
+  background-color: #a6cf98;
+  border-radius: 60px;
+}
+
+.say {
+  display: inline-block;
+  border-radius: 30px;
+  padding: 2%;
+}
