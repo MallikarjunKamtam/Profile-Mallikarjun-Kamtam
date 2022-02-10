@@ -37,14 +37,19 @@
         /></a>
       </div>
     </footer>
-    <section class="tapping">
-      <div class="one">
-        <a href=""
-          ><h1 onclick="scrollWin()" style="position: relative" class="tap">
-            See more about me
-          </h1></a
-        >
-      </div>
+    <section class="tap">
+      <button class="tap-button">See more about me</button>
+
+      <script>
+        function scrollwin() {
+          window.scrollBy(0, 600);
+          behavior: "smooth";
+        }
+
+        document
+          .querySelector(".tap-button")
+          .addEventListener("click", scrollwin);
+      </script>
     </section>
 
     <section class="about-me">
@@ -114,6 +119,21 @@
       </div>
     </section>
 
+    <section class="address">
+      <div class="address-div">
+        <h2 class="address-h2">
+          <a
+            href="https://www.google.com/maps/place/Kamtam+Textiles/@18.4984477,79.091198,19.66z/data=!4m5!3m4!1s0x3bcd20a38d4848bf:0x88966af23ab15dbd!8m2!3d18.4983878!4d79.0913365"
+            >Click her to find my location</a
+          >
+        </h2>
+        <a
+          href="https://www.google.com/maps/place/Kamtam+Textiles/@18.4984477,79.091198,19.66z/data=!4m5!3m4!1s0x3bcd20a38d4848bf:0x88966af23ab15dbd!8m2!3d18.4983878!4d79.0913365"
+          ><img class="map-img" src="images/maps.png" alt=""
+        /></a>
+      </div>
+    </section>
+
     <section class="form">
       <h2 class="say">Hello me here!</h2>
       <form class="form-container" action="">
@@ -149,7 +169,5 @@
     </section>
 
     <div>©️ Mallikarjun Kamtam</div>
-
-    <script src="script.js"></script>
   </body>
 </html>

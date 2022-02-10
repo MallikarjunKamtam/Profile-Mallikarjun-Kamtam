@@ -1,6 +1,3 @@
-function scrollWin() {
-  window.scrollBy(0, 650);
-  behavior: "smooth";
-}
-
-scrollWin();
+document.querySelector(".tapp").addEventListener("click", function scrollWin() {
+  window.scrollBy(0, 500);
+});

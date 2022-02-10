@@ -49,18 +49,6 @@ footer {
   padding: 0% 7%;
 }
 
-.tap {
-  border: 1px solid rgb(21, 2, 58);
-  border-radius: 60px;
-  padding: 4%;
-  display: inline-block;
-  margin-left: 350px;
-  line-height: 0;
-}
-.tap:hover {
-  background-color: #dbf6e9;
-}
-
 .about-me {
   padding-top: 3%;
 }
@@ -72,6 +60,27 @@ footer {
   padding: 1% 3%;
 }
 
+a {
+  text-decoration: none;
+}
+
+.address-div {
+  display: flex;
+  justify-content: center;
+}
+.map-img {
+  height: 200px;
+  width: auto;
+}
+.tap-button {
+  background-color: #a6cf98;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+  margin: 3% 3% 3% 14%;
+}
 .works img {
   width: 300px;
   height: 200px;
