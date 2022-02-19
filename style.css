@@ -21,6 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .intro h1 {
@@ -33,7 +34,6 @@ footer {
   display: inline-block;
   width: 70%;
   padding: 0% 2%;
-  margin-left: 350px;
 }
 
 .reach {
